@@ -6,8 +6,8 @@ To compile the module, run the make command. Once compiled, the output file gene
 
 Running the module:
 
-1. Insert the module using the command sudo insmod perftop.ko\
-2. After module has been inserted successfully, run cat /proc/perftop\
-3. The output of the profiler will be displayed. dmesg can be used to look at module insertion status.\
+1. Insert the module using the command sudo insmod perftop.ko
+2. After module has been inserted successfully, run cat /proc/perftop
+3. The output of the profiler will be displayed. dmesg can be used to look at module insertion status.
 
 To remove the module, run sudo rmmod perftop
